@@ -41,6 +41,10 @@ case "${1}" in
 deploy)
     deploy ${2}
     ;;
+ci_deploy)
+    [ -d "./docs" ] && rm -rf "./docs"
+    deploy ${2}
+    ;;
 *)
     echo "
 Usage:
