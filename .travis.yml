@@ -1,0 +1,13 @@
+sudo: required
+dist: trusty
+
+os: linux
+
+language: golang
+
+cache:
+  directories:
+  - download-cache
+  
+script:
+  - ./run.sh deploy "auto deploy by CI"
