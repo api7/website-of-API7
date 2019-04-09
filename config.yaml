@@ -1,5 +1,5 @@
 baseURL: http://something-fresh.org/
-languageCode: en-us
+languageCode: cn
 title: iResty
 theme: hugo-fresh-859e3d2
 publishDir: docs
@@ -17,11 +17,11 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: 管理. 发布.
+    title: 微服务 API 管理平台
     # Hero subtitle (optional)
-    subtitle: 微服务加速企业价值提升, ....
+    subtitle: 支持多云和混合云环境，连接您所有 API 和微服务到下一代开源、极致性能、注重安全和可扩展的平台
     # Button text
-    buttontext: Get started
+    buttontext: 免费试用
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from /images/___)
@@ -35,11 +35,13 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
+  - title: 开源项目
+    url: https://github.com/iresty
+  - title: 产品功能
     url: /
-  - title: Pricing
+  - title: 免费试用
     url: /
-  - title: Dropdown
+  - title: 关于我们
     url: /
     # sublinks:
     # - title: Dropdown item
@@ -88,22 +90,22 @@ params:
   #     - text: App settings
   #       url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: 我们的优势体现在
+    subtitle: 背后是开发者驱动的开源社区
     tiles:
-    - title: App builder
+    - title: 极致性能
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: 毫秒级延时，单机 4 万 QPS，性能超出同类产品 10 倍的路由
       url: /
       buttonText: Free trial
-    - title: Cloud integration
+    - title: 没有绑定
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: 支持多云和混合云，方便部署和弹性伸缩；提供开源版本，不锁定用户
       url: /
       buttonText: Get started
-    - title: Add-ons & plugins
+    - title: 热加载
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: 函数和插件热加载机制，更适合 Serverless 和 IoT
       url: /
       buttonText: Get started
   section2:
