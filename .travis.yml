@@ -10,4 +10,4 @@ cache:
   - download-cache
   
 script:
-  - ./run.sh deploy "auto deploy by CI"
+  - ./run.sh ci_deploy "auto deploy by CI"
