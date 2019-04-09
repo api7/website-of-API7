@@ -3,7 +3,7 @@ languageCode: en-us
 title: iResty
 theme: hugo-fresh-859e3d2
 publishDir: docs
-baseURL: https://iresty.github.io/iresty.com/
+
 # disableKinds:
 #   - "taxonomy"
 #   - "taxonomyTerm"
@@ -40,52 +40,53 @@ params:
   - title: Pricing
     url: /
   - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
     url: /
-  - title: Sign up
-    url: /
-    button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+    # sublinks:
+    # - title: Dropdown item
+    #   url: /
+    # - title: Dropdown item
+    #   url: /
+    # - title: Dropdown item
+    #   url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
   section1:
     title: Great power comes
     subtitle: with great responsibility
