@@ -20,9 +20,9 @@ params:
     # Main hero title
     title: 微服务 API 管理平台
     # Hero subtitle (optional)
-    subtitle: 支持多云和混合云环境，连接您所有 API 和微服务到开源、极致性能、注重安全和可扩展的平台
+    subtitle: 支持多云（混合云）环境，为您的所有 API 和微服务提供极致性能、注重安全、开源和可扩展的平台
     # Button text
-    buttontext: 免费试用
+    buttontext: 立即开始
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from /images/___)
@@ -36,11 +36,11 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: 开源项目
+  - title: GitHub
     url: https://github.com/iresty
   - title: 产品功能
     url: /
-  - title: 免费试用
+  - title: 立即开始
     url: /
   - title: 关于我们
     url: /
@@ -91,8 +91,8 @@ params:
   #     - text: App settings
   #       url: /
   section1:
-    title: 我们的优势体现在
-    subtitle: 背后是开发者驱动的开源社区
+    title: 我们的优势
+    subtitle: 活跃的开源社区、构建 API 管理行业标准
     tiles:
     - title: 极致性能
       icon: mouse-globe
@@ -102,15 +102,15 @@ params:
 
     - title: 没有绑定
       icon: laptop-cloud
-      text: 支持多云和混合云，灵活弹性伸缩；开源，不锁定用户
+      text: 支持多云（混合云），灵活弹性伸缩；开源，不锁定用户
       url: /
-      buttonText: 免费试用
+      buttonText: 立即开始
 
     - title: 热加载
       icon: plug-cloud
       text: 函数和插件热加载机制，更适合 Serverless 和 IoT
       url: /
-      buttonText: 查看文档
+      buttonText: 了解更多
 
   section2:
     title: 用最好的 API 网关助力业务发展
