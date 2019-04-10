@@ -1,9 +1,10 @@
-baseURL: http://something-fresh.org/
 languageCode: cn
 title: iResty
 theme: hugo-fresh-859e3d2
 publishDir: docs
 baseURL: https://iresty.github.io/
+blackfriday:
+  hrefTargetBlank: true
 # disableKinds:
 #   - "taxonomy"
 #   - "taxonomyTerm"
@@ -19,7 +20,7 @@ params:
     # Main hero title
     title: 微服务 API 管理平台
     # Hero subtitle (optional)
-    subtitle: 支持多云和混合云环境，连接您所有 API 和微服务到下一代开源、极致性能、注重安全和可扩展的平台
+    subtitle: 支持多云和混合云环境，连接您所有 API 和微服务到开源、极致性能、注重安全和可扩展的平台
     # Button text
     buttontext: 免费试用
     # Where the main hero button links to
@@ -95,38 +96,41 @@ params:
     tiles:
     - title: 极致性能
       icon: mouse-globe
-      text: 毫秒级延时，单机 4 万 QPS，性能超出同类产品 10 倍的路由
+      text: 毫秒级延时，单机 4 万 QPS，路由性能超出同类产品 10 倍
       url: /
-      buttonText: Free trial
+      buttonText: 性能白皮书
+
     - title: 没有绑定
       icon: laptop-cloud
-      text: 支持多云和混合云，方便部署和弹性伸缩；提供开源版本，不锁定用户
+      text: 支持多云和混合云，灵活弹性伸缩；开源，不锁定用户
       url: /
-      buttonText: Get started
+      buttonText: 免费试用
+
     - title: 热加载
       icon: plug-cloud
       text: 函数和插件热加载机制，更适合 Serverless 和 IoT
       url: /
-      buttonText: Get started
+      buttonText: 查看文档
+
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: 用最好的 API 网关助力业务发展
+    subtitle: 我们提供您需要的一切
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: 易用的管理界面，强大的开发接口
+      text: 开源版本中自带简洁、易用的管理界面，并提供强大、灵活的接口以便开发者使用。
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: 高可用，安全第一
+      text: 内置高可用方案，并提供多种身份认证和接口校验的安全插件，把稳定和安全放在第一位。
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: 私有部署，自定义插件
+      text: 支持部署在私有网络中，可以根据业务需求开发自己的私有插件。
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: 运维可视化大屏
+    subtitle: 掌控业务运行数据
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    buttonText: 在线演示版本
     buttonLink: "#"
   section4:
     title: Our Clients love us!
@@ -149,17 +153,17 @@ params:
     logo: fresh-white-alt.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/iresty
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
+    - link: https://twitter.com/
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+    - link: https://weibo.com/
+      icon: weibo
+    - link: https://wechat.com/
+      icon: wechat
+
+
     bulmalogo: true
     quicklinks:
       column1:
