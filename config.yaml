@@ -29,11 +29,11 @@ params:
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: GitHub
@@ -92,7 +92,7 @@ params:
   #       url: /
   section1:
     title: 我们的优势
-    subtitle: 活跃的开源社区、构建 API 管理行业标准
+    subtitle: 活跃的开源社区，真实使用场景驱动
     tiles:
     - title: 极致性能
       icon: mouse-globe
@@ -132,22 +132,22 @@ params:
     image: illustrations/mockups/app-mockup.png
     buttonText: 在线演示版本
     buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
@@ -167,35 +167,26 @@ params:
     bulmalogo: true
     quicklinks:
       column1:
-        title: "Product"
+        title: "产品"
         links:
-        - text: Discover features
+        - text: APISIX
           link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: Request features
+        - text: 路线图
           link: /
       column2:
-        title: "Docs"
+        title: "文档"
         links:
-        - text: Get started
+        - text: 快速入门
           link: /
-        - text: User guides
+        - text: 最佳实践
           link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
+        - text: 常见问题
           link: /
       column3:
-        title: "Blog"
+        title: "资源"
         links:
-        - text: Latest news
+        - text: 知乎专栏
           link: /
-        - text: Tech articles
-          link: /
-        - text: Video blog
-          link: /
+        - text: GitHub
+          link: https://github.com/iresty
+
