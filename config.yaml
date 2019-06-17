@@ -96,7 +96,7 @@ params:
     tiles:
     - title: 极致性能
       icon: mouse-globe
-      text: 毫秒级延时，单机 4 万 QPS，路由性能超出同类产品 10 倍
+      text: 微秒级延时，单机 6 万 QPS，路由性能超出同类产品 10 倍
       url: /
       buttonText: 性能白皮书
 
