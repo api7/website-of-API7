@@ -2,7 +2,7 @@ languageCode: cn
 title: iResty
 theme: hugo-fresh-859e3d2
 publishDir: docs
-baseURL: https://iresty.com/
+baseURL: https://www.iresty.com/
 blackfriday:
   hrefTargetBlank: true
 # disableKinds:
@@ -20,7 +20,7 @@ params:
     # Main hero title
     title: 微服务 API 管理平台
     # Hero subtitle (optional)
-    subtitle: 为您的所有 API 和微服务提供极致性能、注重安全、开源和可扩展的平台; 并提供 Nginx 和 API 网关的商业支持
+    subtitle: 为您的所有 API 和微服务提供极致性能、注重安全、开源和可扩展的平台; 并提供 API 网关以及周边的商业支持
     # Button text
     buttontext: 立即联系我们
     # Where the main hero button links to
@@ -113,7 +113,7 @@ params:
       buttonText: 了解更多功能
 
   section2:
-    title: 提供 Nginx、OpenResty、API 网关的商业支持
+    title: 提供 API 网关以及周边的商业支持
     subtitle: 由开源项目的核心开发成员组成
     features:
     - title: 易用的管理界面，强大的开发接口
