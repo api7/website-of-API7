@@ -1,5 +1,5 @@
 languageCode: cn
-title: iResty
+title: API7
 theme: hugo-fresh-859e3d2
 publishDir: docs
 baseURL: https://www.iresty.com/
@@ -165,7 +165,7 @@ params:
       column1:
         title: "产品"
         links:
-        - text: APISIX 的用户有哪些？
+        - text: Apache APISIX 的用户有哪些？
           link: https://github.com/iresty/apisix#who-uses-apisix
         - text: 路线图
           link: https://github.com/iresty/apisix/milestones
