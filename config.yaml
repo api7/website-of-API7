@@ -1,5 +1,5 @@
 languageCode: cn
-title: API7
+title: 支流科技 API7
 theme: hugo-fresh-859e3d2
 publishDir: docs
 baseURL: https://www.iresty.com/
@@ -18,7 +18,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: 微服务 API 管理平台
+    title: API7 微服务 API 管理平台
     # Hero subtitle (optional)
     subtitle: 为您的所有 API 和微服务提供极致性能、注重安全、开源和可扩展的平台; 并提供 API 网关以及周边的商业支持
     # Button text
@@ -37,9 +37,9 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: GitHub
-    url: https://github.com/iresty
+    url: https://github.com/apache/incubator-apisix
   - title: 产品功能
-    url: https://github.com/iresty/apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD
+    url: https://github.com/apache/incubator-apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD
   - title: 立即开始
     url: http://apisix.iresty.com
   - title: 关于我们
@@ -103,13 +103,13 @@ params:
     - title: 没有绑定
       icon: laptop-cloud
       text: 支持多云（混合云），灵活弹性伸缩；开源，不锁定用户
-      url: https://github.com/iresty/apisix#who-uses-apisix
+      url: https://github.com/apache/incubator-apisix#who-uses-apisix
       buttonText: 这些公司都在使用
 
     - title: 热加载
       icon: plug-cloud
       text: 函数和插件热加载机制，更适合 Serverless 和 IoT
-      url: https://github.com/iresty/apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD
+      url: https://github.com/apache/incubator-apisix/blob/master/doc/plugins-cn.md
       buttonText: 了解更多功能
 
   section2:
@@ -152,9 +152,9 @@ params:
     logo: fresh-white-alt.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/iresty
+    - link: https://github.com/api7
       icon: github
-    - link: https://twitter.com/apisixfast
+    - link: https://twitter.com/ApacheAPISIX
       icon: twitter
     - link: https://mp.weixin.qq.com/s/VpKPY4mbFql3N7BAbcvUHQ
       icon: wechat
@@ -166,23 +166,20 @@ params:
         title: "产品"
         links:
         - text: Apache APISIX 的用户有哪些？
-          link: https://github.com/iresty/apisix#who-uses-apisix
-        - text: 路线图
-          link: https://github.com/iresty/apisix/milestones
+          link: https://github.com/apache/incubator-apisix#who-uses-apisix
+        - text: Apache APISIX 和 Kong 的比较
+          link: https://github.com/apache/incubator-apisix/blob/master/README_CN.md#apache-apisix-%E5%92%8C-kong-%E7%9A%84%E6%AF%94%E8%BE%83
       column2:
         title: "文档"
         links:
         - text: 功能列表
-          link: https://github.com/iresty/apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD
-        - text: 快速入门
-          link: https://github.com/iresty/apisix/blob/master/README_CN.md#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B
-        - text: 常见问题
-          link: https://github.com/iresty/apisix/blob/master/FAQ_CN.md
-      column3:
+          link: https://github.com/apache/incubator-apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD
+        - text: 用户实际使用案例
+          link: https://github.com/apache/incubator-apisix/blob/master/README_CN.md#%E7%94%A8%E6%88%B7%E5%AE%9E%E9%99%85%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B
+        column3:
         title: "资源"
         links:
         - text: 知乎专栏
           link: https://zhuanlan.zhihu.com/p/81306020
         - text: GitHub
-          link: https://github.com/iresty
-
+          link: https://github.com/apache/incubator-apisix
